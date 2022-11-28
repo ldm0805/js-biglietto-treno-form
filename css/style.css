@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+.nome-pippo{
+    color: black;
+}
+
 .ticket-row{
     height: 200px;
     width: 200px;
@@ -50,7 +54,7 @@ h1 {
 
 .date {
     display: table-cell;
-    width: 25%;
+    width: 50%;
     position: relative;
     text-align: center;
     border-right: 2px dashed #dadde6
