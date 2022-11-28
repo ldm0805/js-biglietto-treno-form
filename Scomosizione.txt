@@ -1,0 +1,14 @@
+
+1. Creare un form così da permettere all'utente di inserire il numero di chilometri che vuole percorrere;
+2. Creare un form così da permettere all'utente di inserire la sua età;
+3. Calcolare il prezzo del biglietto in base al prezzo per chilometro (0.21 € al km) e tenendo conto dell'eventuale scontistica nel caso l'età dell'utente soddisfi uno dei seguenti requisiti:
+3.1 SE L'utente è minorenne
+        ALLORA ha diritto ad uno sconto del 20%;
+    SE L'utente ha più di 65 anni 
+        ALLORA ha diritto ad uno sconto del 40%;
+    SE L'utente è maggiorenne ma ha meno di 65 anni 
+        ALLORA non ha diritto allo sconto;
+4. Milestone 1
+Implementare il programma senza alcuna estetica e verificarne il funzionamento;
+5 Milestone 2
+In base ai dati inseriti nel form,far visualizzare il biglietto all'utente.
