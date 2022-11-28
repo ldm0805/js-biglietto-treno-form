@@ -54,7 +54,7 @@ h1 {
 
 .date {
     display: table-cell;
-    width: 50%;
+    width: 20%;
     position: relative;
     text-align: center;
     border-right: 2px dashed #dadde6

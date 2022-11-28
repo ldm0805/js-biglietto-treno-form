@@ -1,8 +1,4 @@
 
-
-// Chiedere all'utente di inserire il numero di chilometri che vuole percorrere;
-// let distance = parseInt(prompt('Inserisci i chilometri che vuoi percorrere'));
-
 let button = document.getElementById('save_data');
 
 let part_price
@@ -10,6 +6,7 @@ let name_tag
 let distance_tag
 let age_tag
 let final_price
+
 button.addEventListener('click', function(){
     name_tag = document.getElementById('nome').value;
     console.log(name_tag)
@@ -38,9 +35,11 @@ button.addEventListener('click', function(){
         final_price = part_price.toFixed(2);
     }
 
-    document.getElementById('nome-pass').innerHTML ='ciao'+ " " + name_tag;
-    document.getElementById('nome-pass').innerHTML ='ciao'+ " " + name_tag;
-    document.getElementById('nome-pass').innerHTML ='ciao'+ " " + name_tag;
+    document.getElementById('nome-pass').innerHTML ='Benvenuto a bordo'+ " " + name_tag;
+    document.getElementById('client_price').innerHTML ='Il costo del biglietto è di' +" "+ final_price + "€";
+    document.getElementById('client_name').innerHTML = name_tag;
+
+
 })
 
 
