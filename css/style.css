@@ -40,7 +40,6 @@ h1 {
     display: table-row;
     width: 50em;
     background-color: #fff;
-    color: #989898;
     margin-bottom: 10px;
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
@@ -107,7 +106,7 @@ h1 {
 
 .card-cont {
     display: table-cell;
-    width: 75%;
+    width: 40%;
     font-size: 85%;
     padding: 10px 10px 30px 50px
 }

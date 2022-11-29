@@ -14,6 +14,8 @@
     <title>Esercizio js treno form</title>
 </head>
 <body>
+
+  <!-- Inserimento dati -->
     <section class="container d-flex justify-content-center flex-column align-items-center">
         <h1>Inserisci i tuoi dati</h1>
           <div class="row">
@@ -36,35 +38,57 @@
                           <option value="40">Tra i 18 ed i 64 anni</option>
                         </select>  
                     </div>
-              </form>
-              <div class="d-flex justify-content-center">
-                <button id="save_data" class="btn btn-dark">Salva i dati</button>
-              </div>
+                  </form>
+                  <div class="d-flex justify-content-center">
+                    <button id="save_data" class="btn btn-dark">Salva i dati</button>
+                  </div>
           </div>
         </section>
 
+        <!-- Stampa biglietto -->
+        
         <section class="container d-flex justify-content-center flex-column align-items-center">
             <h1>Il tuo biglietto</h1>
               <div class="row">
                 <article class="card fl-left mb-0" >
                     <section class="date">
-                            <span id="nome-pass" class="h5"></span>
+                      <h3 class="fw-bold mt-4">Boolean Train Italia</h3>
+                      <h3 class="fw-bold"> ti da il benvenuto</h3>
+                            <span id="nome-pass" class="h5 fw-bold"></span>
                       </section>
                   <section class="card-cont">
-                    <h3>Boolean Train Italia</h3>
+                    <h3 class="fw-bold">Boolean Train Italia</h3>
                     <div class="even-date">
                      <i class="fa fa-calendar me-2"></i>
                      <time>
-                       <span class="ms-2">Partenza il 28/12/2022</span>
+                       <span class="ms-2">Partenza il <strong>28/12/2022</strong></span>
                        <span class="ms-2" id="client_price"></span>
                        <span class="ms-2" id="client_name"></span>
                      </time>
                     </div>
                     <div class="even-info">
-                      <i class="fa fa-map-marker me-2"></i>
-                      <p>
-                        Stazione di Foggia
-                      </p>
+                      <i class="fa fa-map-marker"></i>
+                      <time class="ms-1">
+                        <p>
+                          Stazione di Foggia
+                        </p>
+                      </time>
+                    </div>
+                    <div class="mt-4 d-flex justify-content-between">
+                      <div>
+                        <strong>Binario</strong>
+                        <div id="n_id_binary"></div>
+                      </div>
+                      <div>
+                        <strong>Carrozza</strong>
+                        <div id="n_id_carriage"></div>
+                      </div>
+                      <div>
+                       <strong>Posto</strong>
+                        <div  id="n_id_site"></div>
+                      </div>
+
+
                     </div>
                   </section>
               </div>
