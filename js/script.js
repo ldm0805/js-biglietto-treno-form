@@ -9,7 +9,7 @@ let n_binary
 let n_carriage
 let n_site
 let myFunction
-const element = document.querySelector('div.foo');
+const element = document.querySelector('div.drop');
 
 //2 Bottone per il salvataggio dei dati inseriti
 let button = document.getElementById('save_data');
@@ -26,7 +26,7 @@ button.addEventListener('click', function(){
     part_price = (distance_tag * price_km);
 
     if (age_tag < 18){
-        final_price = (part_price - (part_price * 0.2).toFixed(2));    
+        final_price = (part_price - (part_price * 0.2)).toFixed(2);    
     }
     
     else if (age_tag >= 65){
