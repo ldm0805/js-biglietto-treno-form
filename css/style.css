@@ -4,8 +4,8 @@
     box-sizing: border-box;
 }
 
-.nome-pippo{
-    color: black;
+.bg_red{
+    background-color: #b9a012cb !important;
 }
 
 .ticket-row{
@@ -163,6 +163,12 @@ h1 {
 .row:last-child .card:last-child .card-cont a {
     background-color: #F8504C
 }
+
+.animate__backInDown{
+    margin: 0 0.5rem;
+    animation: backInDown; 
+    animation-duration: 2s;
+  }
 
 @media screen and (max-width: 860px) {
     .card {
