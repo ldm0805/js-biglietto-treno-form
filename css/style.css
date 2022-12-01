@@ -4,9 +4,7 @@
     box-sizing: border-box;
 }
 
-.bg_yellow{
-    background-color: #b9a012cb !important;
-}
+
 
 .ticket-row{
     height: 200px;
@@ -168,6 +166,14 @@ h1 {
     margin: 0 0.5rem;
     animation: backInDown; 
     animation-duration: 2s;
+  }
+
+  article.bg_yellow{
+    background-color: #b9a012cb ;
+}
+
+section .date::before,section .date::after {
+    background-color: rgb(255, 255, 255);
   }
 
 @media screen and (max-width: 860px) {

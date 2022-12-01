@@ -27,10 +27,12 @@ button.addEventListener('click', function(){
 
     if (age_tag < 18){
         final_price = (part_price - (part_price * 0.2)).toFixed(2);    
+        document.getElementById('client_offer').innerHTML ='Sconto minorenni 20%';
     }
     
     else if (age_tag >= 65){
-        final_price = (part_price - (part_price * 0.4)).toFixed(2);    
+        final_price = (part_price - (part_price * 0.4)).toFixed(2); 
+        document.getElementById('client_offer').innerHTML ='Sconto over 65 40%';   
     }
 
     else{
@@ -48,6 +50,7 @@ button.addEventListener('click', function(){
      //5 Stampa dei valori su schermo
      
      document.getElementById('nome-pass').innerHTML = name_tag;
+     
      document.getElementById('client_price').innerHTML ='Il costo del biglietto è di' +" "+ final_price + "€";
      document.getElementById('client_name').innerHTML ='Il biglietto è intestato a:' +" " + name_tag;
      document.getElementById('n_id_binary').innerHTML = n_binary;
